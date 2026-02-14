@@ -1,0 +1,11 @@
+{
+  "name": "liquid-glass",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "npm run -ws typecheck"
+  }
+}
