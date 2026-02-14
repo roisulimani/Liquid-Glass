@@ -1,0 +1,38 @@
+:root {
+  --lg-radius-sm: 12px;
+  --lg-radius-md: 18px;
+  --lg-radius-lg: 26px;
+
+  --lg-blur-1: 10px;
+  --lg-blur-2: 18px;
+  --lg-blur-3: 26px;
+
+  --lg-tint: rgba(255, 255, 255, 0.55);
+  --lg-tint-light: rgba(255, 255, 255, 0.55);
+  --lg-tint-dark: rgba(20, 20, 25, 0.45);
+
+  --lg-border: rgba(255, 255, 255, 0.18);
+  --lg-border-strong: rgba(255, 255, 255, 0.28);
+  --lg-inner-glow: rgba(255, 255, 255, 0.14);
+
+  --lg-shadow-0: none;
+  --lg-shadow-1: 0 6px 18px rgba(0, 0, 0, 0.1);
+  --lg-shadow-2: 0 16px 40px rgba(0, 0, 0, 0.14);
+  --lg-shadow-3: 0 30px 80px rgba(0, 0, 0, 0.18);
+
+  --lg-ease: cubic-bezier(.2, .8, .2, 1);
+  --lg-dur-1: 160ms;
+  --lg-dur-2: 240ms;
+
+  --lg-specular-alpha: 0.22;
+  --lg-specular-size: 220px;
+  --lg-noise-alpha: 0.045;
+}
+
+:root[data-theme='dark'] {
+  --lg-tint: var(--lg-tint-dark);
+}
+
+:root[data-theme='light'] {
+  --lg-tint: var(--lg-tint-light);
+}
